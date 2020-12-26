@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.movies-searched, .discover-movie, .upcoming-movie, .now-playing {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.section-title {
+    padding-left: 25px;
+    margin: 20px auto;
+    width: 95%;
+}
+
+movie-list {
+    display: flex;
+    margin: 20px auto 0 auto;
+    width: 95%;
+    padding: 16px;
+    overflow-x: auto;
+}
+
+movie-list > .placeholder {
+    font-weight: lighter;
+    color: rgba(0,0,0,0.5);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+movie-item {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+movie-item .movie-poster {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+movie-item .movie-poster:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+/* Movie card flip */
+.scene {
+    width: 200px;
+    height: 300px;
+    perspective: 600px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card__face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card__face--front {
+    background: red;
+}
+  
+.card__face--back {
+    background: white;
+    transform: rotateY( 180deg );
+    width: 203px;
+    height: 303px;
+    -webkit-box-shadow: 1px 6px 42px -10px rgba(3,3,3,0.67);
+    -moz-box-shadow: 1px 6px 42px -10px rgba(3,3,3,0.67);
+    box-shadow: 1px 6px 42px -10px rgba(3,3,3,0.67);
+}
+
+.movie-info {
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.movie-title {
+    font-size: 1.35rem;
+    font-weight: 500;
+}

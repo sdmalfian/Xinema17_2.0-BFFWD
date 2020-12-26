@@ -1,0 +1,36 @@
+@import "appbar.css";
+@import "movielist.css";
+@import "searchbar.css";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 1440px;
+    margin: 32px auto;
+}
+
+.section-title, .navbar {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+}
+
+.jumbotron {
+    min-height: 300px;
+    height: calc(100vh / 2.5);
+    max-height: 360px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("https://initiate.alphacoders.com/images/653/stretched-1280-720-653613.jpg?6310");
+    background: linear-gradient(to bottom rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("https://initiate.alphacoders.com/images/653/stretched-1280-720-653613.jpg?6310");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
