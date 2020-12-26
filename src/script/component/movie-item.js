@@ -20,7 +20,7 @@ class MovieItem extends HTMLElement {
                         <p class="movie-title">${this._movie.title}</p>
                         <p>${this._movie.release_date}</p>
                         <p class="vote_average">Rating: ${this._movie.vote_average}</p>
-                        <button type="button" class="btn btn-secondary">Back</button>
+                        <button type="button" class="btn btn-light">Back</button>
                     </div>
                     
                 </div>

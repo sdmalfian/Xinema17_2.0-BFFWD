@@ -1,6 +1,8 @@
 @import "appbar.css";
 @import "movielist.css";
 @import "searchbar.css";
+@import "footer.css";
+@import "about-info.css";
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 * {
@@ -10,7 +12,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    background-color: #2d4059;
 }
 
 main {
@@ -22,6 +24,7 @@ main {
 .section-title, .navbar {
     font-family: 'Source Sans Pro';
     font-weight: 600;
+    color: #ffffff;
 }
 
 .jumbotron {

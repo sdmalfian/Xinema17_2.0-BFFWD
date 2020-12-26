@@ -81,7 +81,7 @@ const main = () => {
             target.parentElement.classList.toggle('is-flipped');  
         }
 
-        if(target.className === 'btn btn-secondary') {
+        if(target.className === 'btn btn-light') {
             target.parentElement.parentElement.parentElement.classList.toggle('is-flipped');  
         }
     })

@@ -1,0 +1,12 @@
+.socmed {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socmed li {
+    list-style-type: none;
+}
+
+.fa-github {
+    color: #000000;
+}
