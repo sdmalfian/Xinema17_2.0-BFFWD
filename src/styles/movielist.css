@@ -102,6 +102,12 @@ movie-item .movie-poster:hover {
     font-weight: 500;
 }
 
+@media screen and (max-width: 1024px) {
+    movie-item .movie-poster:hover {
+        transform: none;
+    }
+}
+
 @media screen and (max-width: 600px){
     .movies-searched, .discover-movie, .upcoming-movie, .now-playing {
         padding: 0px;
