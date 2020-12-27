@@ -43,7 +43,9 @@
     text-transform: uppercase;
     border-radius: 15px;
 }
-
+.placeholder {
+    color: #ffffff;
+}
 @media screen and (max-width: 550px){
     .search-container {
         flex-direction: column;

@@ -10,7 +10,9 @@ class MovieList extends HTMLElement {
  
    renderError(message) {
        this.innerHTML = "";
-       this.innerHTML += `<h2 class="placeholder">${message}</h2>`;
+       this.innerHTML += `
+       <h2 class="placeholder" style="color:white">Search ${message}</h2>
+       `;
    }
    
    render() {
