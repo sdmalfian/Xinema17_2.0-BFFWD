@@ -1,5 +1,3 @@
-const ImageUrl = "https://image.tmdb.org/t/p/w500";
-
 class MovieItem extends HTMLElement {
     set movie(movie) {
         this._movie = movie;

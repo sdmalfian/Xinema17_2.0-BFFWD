@@ -2,13 +2,14 @@ import '../component/movie-list.js';
 import '../component/search-bar.js';
 import DataSource from '../data/data-source.js';
 
+
 const main = () => {
     const searchElement = document.querySelector("search-bar");
     const movieListElement = document.querySelector(".movies-searched movie-list");
     const movieListElement1 = document.querySelector(".discover-movie movie-list");
     const movieListElement2 = document.querySelector(".upcoming-movie movie-list");
     const movieListElement3 = document.querySelector(".now-playing movie-list");
-  
+
     // Movie-searchable
     const onButtonSearchClicked = () => {
         DataSource.searchMovies(searchElement.value)

@@ -31,8 +31,8 @@ main {
     min-height: 300px;
     height: calc(100vh / 2.5);
     max-height: 360px;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("https://initiate.alphacoders.com/images/653/stretched-1280-720-653613.jpg?6310");
-    background: linear-gradient(to bottom rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("https://initiate.alphacoders.com/images/653/stretched-1280-720-653613.jpg?6310");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/src/img/star-wars.jpg");
+    background: linear-gradient(to bottom rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("/src/img/star-wars.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
